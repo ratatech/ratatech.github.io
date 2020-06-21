@@ -2,7 +2,12 @@
 layout: default
 title: Jordi Hidalgo
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Jordi Hidalgo!</h1>
-	<p>I'm a DSP Engineer living and working between Barcelona and Murten(Switzerland)</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+  </body>
+</html>
