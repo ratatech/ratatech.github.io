@@ -1,7 +1,7 @@
 ---
 name: Cube Orchestra
 tools: [C#, XML, WPF]
-image: http://i2.wp.com/www.synthtopia.com/wp-content/uploads/2016/06/make-noise-0-coast-synth-top.png?fit=1096%2C651
+image: /assets/img/cubeOrch.png
 description: Cube Orchestra is a live interactive system for electronic music performance where users can create and play virtual instruments with their smartphones and interact with the virtual objects in the screen. Each cube represents a synth, a sampler or a drum machine and all the melodies and patterns are created on the fly. This way, the audience gets feedback in real time from what the artists are doing. Using a homemade wood structure attached to a bed sheet to project the image, infrared sensors are used to turn it into a multitouch tactile screen.
 ---
 
