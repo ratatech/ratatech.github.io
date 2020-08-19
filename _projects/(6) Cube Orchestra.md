@@ -1,7 +1,7 @@
 ---
 name: Cube Orchestra
 tools: [Pure Data, Processing, Wii, Electronics]
-image: /assets/img/cubeOrch.png
+image: /assets/img/cube_orch_square.png
 description: Interactive Electronic Music system
 ---
 

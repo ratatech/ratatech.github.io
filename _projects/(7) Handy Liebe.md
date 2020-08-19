@@ -1,6 +1,6 @@
 ---
 name: Handy Liebe
-tools: [Node.js, JavaScript, Pure Data]
+tools: [Node.js, HTML, Python, Pure Data, Ableton Live]
 image: /assets/img/handyLiebe.png
 description: Collaborative smartphone ensemble
 external_url:
