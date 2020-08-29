@@ -15,7 +15,7 @@
       {%- for html_page in html_pages -%}
 
         {%- assign exclude = false -%}
-
+        
         {%- for exclude_path in site.nav_exclude -%}
 
           {%- if exclude_path == html_page.path -%}
