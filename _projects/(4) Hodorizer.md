@@ -8,7 +8,7 @@ external_url:
 
 # Hodorizer
 
-Hodorizer was a Hack presented on the Music Hackday held in Barcelona within the Sonar Festival 2014 edition. The idea was to develop a tool which analyzes the content of the song and replaces the main lyrics by Hodor vocalizations. The site storing the library can still be visited on Hector Parra's (co-author) [githup page](http://hector.github.io/hodorizer/).
+Hodorizer was a Hack presented on the Music Hackday held in Barcelona within the Sonar Festival 2014 edition. The idea was to develop a tool which analyzes the content of the song and replaces the main lyrics by Hodor vocalizations. The site storing the library can still be visited on Hector Parra's (co-author) [github page](http://hector.github.io/hodorizer/).
 
 {% include elements/figure.html image="/assets/img/Hodorizer.png" caption="Hodorizer main page" %}
 
