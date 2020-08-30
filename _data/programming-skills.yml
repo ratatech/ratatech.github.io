@@ -1,11 +1,11 @@
 - name: C/C++
   percentage: 90
-  color: danger
+  color: success
 
-- name: matlab
-  percentage: 80
+- name: MATLAB & Simulink
+  percentage: 85
   color: info
 
 - name: Python
-  percentage: 70
-  color: dark
+  percentage: 80
+  color: secondary

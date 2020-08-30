@@ -1,17 +1,21 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: BSc Telecom Engineering, UAB, Spain
+  from: 2005
+  to: 2009
+- title: MSc Telecom Engineering, UPF, Spain
+  from: 2009
+  to: 2011
 
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: MSc Sound and Music Computing, UPF, Spain
+  from: 2011
+  to: 2012
+  description: Multidisciplinary Master's degree, which combines scientific, technological and artistic methodologies with the goal of understanding, modeling and generating sound and music through computational approaches.
+
+- title: Audio DSP Research Engineer (Intern), Yamaha, Japan
+  from: Sept, 2012
+  to: Dec, 2012
+  description: Collaboration between the MTG and Yamaha consiting on the evaluation and improvement of Audio Source Separation models for singing voice signals.
+
+- title: Audio DSP Engineer, Phonak, Switzerland
+  from: 2013
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Worked on different topics within the Audio DSP domain for hearing technologies. Noise reduction algorithms, Wide Range compression, Sampling Rate Conversion, Audio Codecs for Wireless devices...

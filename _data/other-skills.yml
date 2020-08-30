@@ -1,7 +1,15 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
-
-- name: Adobe Illustrator
+- name: Adobe Audition
   percentage: 90
   color: success
+
+- name: Arduino
+  percentage: 80
+  color: primary
+
+- name: LTspice
+  percentage: 70
+  color: warning
+
+- name: KiCad
+  percentage: 60
+  color: danger
