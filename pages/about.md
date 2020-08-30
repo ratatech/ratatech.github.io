@@ -7,10 +7,10 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-As a Telecom Engineer I’m familiar with Information and Communication Technologies like Computer Networks, Analog and Digital Electronics, Multimedia Communications, Cloud Computing, web-based services and applications… But since long time ago I’ve become more interested in Audio and Music Technologies. Specially I like to work with Audio and Digital Signal Processing, Music and Sound Perception and Cognition, Auditory modeling, Cochlear Implants (Part of my Master Thesis research) , development of new interfaces for music interaction, Music Information Retrieval, Internet Music Services, Embedded Audio …
+Hi I am **{{ site.author.name }}** :wave:. I'm a Telecom Engineer from [La Bisbal d'Empordà](https://en.wikipedia.org/wiki/La_Bisbal_d%27Empord%C3%A0), Catalonia, Spain. I studied in Barcelona, where I coursed the MSc in Sound and Music Computing at the [MTG](https://www.upf.edu/web/mtg). Following that, I did an Internship at the Yamaha Research Center in Hamamatsu, Japan. Over the last years I've been living in Switzerland where I work as Audio DSP Engineer for [Phonak](https://www.phonak.com). See my [CV]({{ site.baseurl }}{% link /assets/docs/CV_Jordi_Hidalgo.pdf %}) for more details.
 
-In my free time I like to play with all kind of music related technologies such as Arduino, Pure Data, Processing… As well as I love electronics and DIY projects such as home-made synthesizers or any kind of noisy device
+When I'm not working on my paid job, I love to work on DIY electronic projects, specially for music/noisy devices. You can check a selection of the projects I've worked over the years on the [Projects]({{ site.baseurl }}{% link pages/projects.html %}) page. Other than that, I also spend considerable amounts of time walking my dogs in the forest or digging in record shops and listening to my humble record [collection](https://www.discogs.com/es/user/ratatech/collection).
+
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
