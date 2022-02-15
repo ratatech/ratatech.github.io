@@ -1,15 +1,15 @@
-- name: Adobe Audition
+- name: Audio Signal processing & Analysis
   percentage: 90
   color: success
+  
+- name: Embedded software & RTOS
+  percentage: 75
+  color: warning
 
-- name: Arduino
+- name: Hearing Performance
   percentage: 80
   color: primary
 
-- name: LTspice
-  percentage: 70
-  color: warning
-
-- name: KiCad
+- name: Wireless Audio Protocols
   percentage: 60
   color: danger
