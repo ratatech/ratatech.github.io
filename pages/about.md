@@ -14,7 +14,7 @@ When I'm not working on my paid job, I love to work on DIY electronics projects,
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Areas of expertise" source=site.data.other-skills %}
 </div>
 
 <div class="row">
