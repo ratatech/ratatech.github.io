@@ -4,6 +4,34 @@ tools: [Analog Electronics]
 image: /assets\img\talkbox_pcb_top_square.png
 description: Talkbox sound effect
 external_url:
+
+carousels:
+  - images:
+    - image: /assets/img/P1080021.jpg
+    - image: /assets/img/P1080020.jpg
+    - image: /assets/img/P1080026.jpg
+
+  - images:
+    - image: /assets/img/20200705_183042.jpg
+    - image: /assets/img/20200705_183225.jpg
+    - image: /assets/img/20200705_183852.jpg
+    - image: /assets/img/20200705_184126.jpg
+    - image: /assets/img/20200705_204743.jpg
+    - image: /assets/img/20200705_210150.jpg
+
+  - images:
+    - image: /assets/img/IMG_20201108_161843.jpg
+    - image: /assets/img/IMG_20201108_172029.jpg
+    - image: /assets/img/IMG_20201113_202723.jpg
+    - image: /assets/img/IMG_20201113_202740.jpg
+    - image: /assets/img/IMG_20201114_140650.jpg
+    - image: /assets/img/IMG_20201121_170106.jpg
+    - image: /assets/img/IMG_20201203_233727.jpg
+
+  - images:
+    - image: /assets/img/IMG_20201211_111015.jpg
+    - image: /assets/img/IMG_20201211_111030.jpg
+
 ---
 
 # Talkbox
@@ -41,12 +69,7 @@ To verify and fine tune some of the component values, I simulated this part of t
 
 At this point it was a good moment to do some trials and try to build a prototype of the entire project before moving to PCB design. Most parts worked quite easily due to the simplicity of the project. Still I had some noise issues when connecting the power amplifier. Most of the annoying "humm" noise seemed to come from the PA input where it seems to be a common issue. The general recommendation seems to be to use as short as possible connection between circuit output and PA input. This combined with a shielded cable for that particular connection looked like a much better approach and got rid of the loud "humm" noise.
 
-{% capture carousel_images_extra %}
-/assets/img/P1080021.jpg
-/assets/img/P1080020.jpg
-/assets/img/P1080026.jpg
-{% endcapture %}
-{% include elements/carousel_extra.html %}
+{% include elements/carousel.html height="50" unit="%" duration="30" number="1" %}
 
 #### PCB Design
 
@@ -59,31 +82,9 @@ After simulation and breadboard prototyping I moved to KiCad for the PCB design.
 
 After the PCBs arrived from the fab-house, I started the final step on the PCB fabrication, a few moments of the whole process can be observed on the group of images below. First fixing carefully the PCB with the stencil and applying the copper paste on top. Right after I populated the components on it's corresponding positions ready to be soldered. Finally the soldering was achieved using a cooking hot plate which worked quite well this time due to the small size of the PCB. Larger PCBs tend to bend a little bit making that all the surface of the PCB not being in contact with the hot plate. In that case some components can remain unsoldered.
 
-{% capture carousel_images %}
-/assets/img/20200705_183042.jpg
-/assets/img/20200705_183225.jpg
-/assets/img/20200705_183852.jpg
-/assets/img/20200705_184126.jpg
-/assets/img/20200705_204743.jpg
-/assets/img/20200705_210150.jpg
-{% endcapture %}
-{% include elements/carousel.html %}
+{% include elements/carousel.html height="50" unit="%" duration="90" number="2" %}
 
 #### Case building
 
-{% capture carousel_images %}
-/assets/img/IMG_20201108_161843.jpg
-/assets/img/IMG_20201108_172029.jpg
-/assets/img/IMG_20201113_202723.jpg
-/assets/img/IMG_20201113_202740.jpg
-/assets/img/IMG_20201114_140650.jpg
-/assets/img/IMG_20201121_170106.jpg
-/assets/img/IMG_20201203_233727.jpg
-{% endcapture %}
-{% include elements/carousel.html %}
-
-{% capture carousel_images %}
-/assets/img/IMG_20201211_111015.jpg
-/assets/img/IMG_20201211_111030.jpg
-{% endcapture %}
-{% include elements/carousel.html %}
+{% include elements/carousel.html height="50" unit="%" duration="90" number="3" %}
+{% include elements/carousel.html height="50" unit="%" duration="90" number="4" %}
